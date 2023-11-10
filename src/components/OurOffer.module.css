@@ -1,0 +1,49 @@
+/*
+=============== 
+OurOffer
+===============
+*/
+.section-offer {
+    background-color: var(--clr-primary-10);
+}
+
+.ouroffer {
+    padding-bottom: 2.5rem;
+}
+
+.text-info {
+    margin-bottom: 2rem;
+}
+
+.text-info > p {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 576px) {
+    .ouroffer-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+    .ouroffer {
+        padding-bottom: 5rem;
+    }
+
+    .ouroffer-center {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .text-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .text-info {
+        margin-bottom: 0;
+    }
+}
+

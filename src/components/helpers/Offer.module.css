@@ -1,0 +1,41 @@
+.offer {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.offer-icon {
+    background: var(--clr-primary-5);
+    color: var(--clr-primary-1);
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.offer-text {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 576px) {
+    .offer {
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .offer {
+        display: flex;
+        text-align: left;
+    }
+    .offer-icon {
+        align-self: start;
+    }
+    .offer-info {
+        padding-left: 1rem;
+    }
+    .offer-title {
+        margin-bottom: 0.5rem;
+    }
+}

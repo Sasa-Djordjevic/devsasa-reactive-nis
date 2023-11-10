@@ -1,0 +1,58 @@
+/*
+=============== 
+Navbar
+===============
+*/
+
+.nav-link {
+    display: block;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    color: var(--clr-grey-1);
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: white;
+    border-bottom: 1px solid var(--clr-primary-5);
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    color: var(--clr-primary-1);
+    background: var(--clr-primary-8);
+    /* padding-left: 2.25rem; */
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+
+.footer-link {
+    color: var(--clr-white);
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin-right: 1rem;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+}
+
+.footer-link:hover {
+    color: var(--clr-primary-5);
+}
+
+/* nav at bigger screen size */
+@media screen and (min-width: 992px) {
+    .nav-link {
+        padding: 0 0;
+        margin-right: 0.7rem;
+        border-bottom: none;
+    }
+
+    .nav-link:hover {
+        padding: 0;
+        color: var(--clr-primary-5);
+        background: transparent;
+    }
+}    

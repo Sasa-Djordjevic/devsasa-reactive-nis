@@ -1,0 +1,39 @@
+/*
+=============== 
+Footer
+===============
+*/
+.footer {
+    background: var(--clr-grey-1);
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+  
+.footer-links,
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    color: var(--clr-white);
+}
+
+.copyright span {
+    margin-left: 0.5rem;
+}
+
+.copyright a {
+    text-transform: lowercase;
+    color: var(--clr-primary-5);
+    transition: var(--transition);
+}
+
+.copyright a:hover {
+    color: var(--clr-white);
+}
